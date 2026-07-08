@@ -1,0 +1,58 @@
+:root {
+  /* Color palette */
+  --color-bg: #f5f6f9;
+  --color-surface: #ffffff;
+  --color-surface-alt: #eef0f5;
+  --color-ink: #1a1d29;
+  --color-ink-soft: #4a4f63;
+  --color-muted: #767c94;
+  --color-border: #e3e5ec;
+  --color-border-strong: #cdd1de;
+
+  --color-primary: #3454d1;
+  --color-primary-dark: #263f9f;
+  --color-primary-light: #e8ecfb;
+  --color-primary-contrast: #ffffff;
+
+  --color-accent: #f2a65a;
+  --color-accent-dark: #d8863a;
+  --color-accent-light: #fdecd8;
+
+  --color-success: #2e9e6d;
+  --color-success-light: #e1f5ec;
+  --color-warning: #dba62c;
+  --color-warning-light: #fbf1da;
+  --color-danger: #e15554;
+  --color-danger-light: #fceaea;
+
+  /* Typography */
+  --font-display: 'Sora', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  /* Shadows - tinted with ink instead of pure black */
+  --shadow-sm: 0 1px 2px rgba(26, 29, 41, 0.06), 0 1px 1px rgba(26, 29, 41, 0.04);
+  --shadow-md: 0 6px 16px rgba(26, 29, 41, 0.08), 0 2px 6px rgba(26, 29, 41, 0.05);
+  --shadow-lg: 0 16px 40px rgba(26, 29, 41, 0.14), 0 4px 12px rgba(26, 29, 41, 0.06);
+
+  /* Layout */
+  --sidebar-width: 248px;
+  --navbar-height: 68px;
+  --content-max-width: 1180px;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+}
